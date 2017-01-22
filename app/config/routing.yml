@@ -1,3 +1,11 @@
-app:
-    resource: "@AppBundle/Controller/"
+user:
+    resource: "@UserBundle/Controller/"
     type:     annotation
+    prefix:   /user
+
+ticketing:
+    resource: "@TicketingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
