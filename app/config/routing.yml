@@ -1,11 +1,15 @@
 user:
     resource: "@UserBundle/Controller/"
     type:     annotation
-    prefix:   /user
+    prefix:   /
 
 ticketing:
     resource: "@TicketingBundle/Controller/"
     type:     annotation
     prefix:   /
 
+login_check:
+    path: /login_check
 
+logout:
+    path: /logout
