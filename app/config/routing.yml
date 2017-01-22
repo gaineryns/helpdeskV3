@@ -1,3 +1,4 @@
+
 user:
     resource: "@UserBundle/Controller/"
     type:     annotation
@@ -8,8 +9,8 @@ ticketing:
     type:     annotation
     prefix:   /
 
-login_check:
-    path: /login_check
 
-logout:
-    path: /logout
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
