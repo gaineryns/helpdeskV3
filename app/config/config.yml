@@ -75,3 +75,10 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: UserBundle\Entity\User
+
+hackzilla_ticket:
+    user_class: UserBundle\Entity\User
+
+
+vich_uploader:
+    db_driver: orm
